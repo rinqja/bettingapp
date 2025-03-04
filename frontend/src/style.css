@@ -1,0 +1,5 @@
+:root {
+    --browser-bar-height: env(safe-area-inset-top, 0px);
+  --header-height: 70px; /* or whatever your header height is */
+  --total-top-offset: calc(var(--browser-bar-height) + var(--header-height));
+}

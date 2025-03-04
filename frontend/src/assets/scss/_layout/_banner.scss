@@ -1,0 +1,58 @@
+//Banner Section Start
+.banner__left__wrap{
+    .owl-nav{
+        button.owl-prev{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 150px;
+            transition: all 0.3s;
+            i{
+                font-size: 28px;
+                color: var(--white-color);
+                transition: all 0.3s;
+            }
+            &:hover{
+                background-color: transparent;
+            }
+        }
+        button.owl-next{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 150px;
+            transition: all 0.3s;
+            i{
+                font-size: 28px;
+                color: var(--white-color);
+                transition: all 0.3s;
+            }
+            &:hover{
+                background-color: transparent;
+              i{
+                color: var(--white-color);
+              }
+            }
+        }
+    }
+    .owl-dots{
+        position: absolute;
+        bottom: 25px;
+        left: 50%;
+        .owl-dot{
+            span{
+                background-color: #13151B;
+                width: 12px;
+                height: 12px;
+            }
+            &.active{
+                span{
+                    background-color: #77C746;
+                    width: 12px;
+                }
+            }
+        }
+    }
+}
+
+//Banner Section End

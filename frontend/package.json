@@ -1,0 +1,33 @@
+{
+  "name": "sports-odds-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "build:with-types": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@kyvg/vue3-notification": "^3.4.1",
+    "@popperjs/core": "^2.11.8",
+    "@vuepic/vue-datepicker": "^9.0.3",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "pinia": "^2.3.0",
+    "sass": "^1.77.6",
+    "swiper": "^10.3.1",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.3",
+    "vue3-fortune-wheel": "^2.0.5"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.10",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  }
+}

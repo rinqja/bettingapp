@@ -1,0 +1,55 @@
+- [x] SportMatches.vue (Completed)
+- [ ] BetSlip.vue (Next up)
+- [ ] OddsDisplay.vue
+- [ ] MatchFilters.vue
+- [ ] LiveScores.vue
+
+2. Navigation Components:
+- [ ] MainHeader.vue
+- [ ] SideNav.vue
+- [ ] SportsTabs.vue
+- [ ] BettingMenu.vue
+
+3. User Interface Components:
+- [ ] UserProfile.vue
+- [ ] LoginForm.vue
+- [ ] RegisterForm.vue
+- [ ] NotificationPanel.vue
+
+4. Utility Components:
+- [ ] LoadingSpinner.vue
+- [ ] ErrorMessage.vue
+- [ ] ConfirmationModal.vue
+- [ ] ToastNotifications.vue
+
+5. Page Layouts:
+- [ ] HomeLayout.vue
+- [ ] BettingLayout.vue
+- [ ] AccountLayout.vue
+
+Phase 1: Backend Foundation
+
+- [ ] Update Bet model with SGM support
+- [ ] Create SGM-specific constants and configurations
+- [ ] Modify bet validation middleware
+- [ ] Update bet controller with SGM logic
+Phase 2: Frontend Store
+
+- [ ] Update Bet model with SGM support
+- [ ] Create SGM-specific constants and configurations
+- [ ] Modify bet validation middleware
+- [ ] Update bet controller with SGM logic
+Phase 3: UI Components
+
+- [ ] Update BetSlip component for SGM support
+- [ ] Add SGM mode toggle
+- [ ] Implement SGM-specific validation messages
+- [ ] Update odds display for SGM bets
+Phase 4: Testing & Integration
+
+- [ ] Test SGM bet placement
+- [ ] Verify odds calculations
+- [ ] Test validation rules
+- [ ] Integration testing
+
+'/same-game-multi/:matchId',

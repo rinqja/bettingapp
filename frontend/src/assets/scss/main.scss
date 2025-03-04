@@ -1,0 +1,50 @@
+/*Goole Font Use*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+/*Goole Font Use*/
+
+/*CSS Table Of Content Ends Here*/
+
+// bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+/*Abstracts / mixins*/
+@import "_abstracts/_mixins.scss";
+/*Abstracts / mixins*/
+
+/*Abstracts / variables*/
+@import "_abstracts/_variables.scss";
+/*Abstracts / variables*/
+
+/*Abstracts / typography*/
+@import "_base/_typography.scss";
+/*Abstracts / typography*/
+
+/*Abstracts / footer*/
+@import "_layout/_footer.scss";
+/*Abstracts / footer*/
+
+/*Abstracts / header*/
+@import "_layout/_header.scss";
+/*Abstracts / header*/
+
+/*Abstracts / banner*/
+@import "_layout/_banner.scss";
+/*Abstracts / banner*/
+
+/*Abstracts / section*/
+@import "_layout/_section.scss";
+/*Abstracts / section*/
+
+/*Abstracts / animation*/
+@import "_layout/_animation.scss";
+/*Abstracts / animation*/
+
+/*Abstracts / componets*/
+@import "_components/_buttons.scss";
+/*Abstracts / componets*/
+
+/*Abstracts / reponsive*/
+@import "_base/_responsive.scss";
+/*Abstracts / reponsive*/
+
+/*CSS Table Of Content Ends End*/

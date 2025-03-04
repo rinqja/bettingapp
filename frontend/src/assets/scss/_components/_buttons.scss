@@ -1,0 +1,84 @@
+/*--Button Area Start--*/
+/*--Button Area Start--*/
+.cmn--btn {
+	padding: 9px 40px 12px;
+	font-size: 14px;
+	font-weight: 600;
+	display: inline-block;
+	text-transform: capitalize;
+	transition: all 0.3s;
+	text-align: center;
+	background: var(--button-one);
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+	z-index: 1;
+	&::before{
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		background: linear-gradient(114.26deg, #FF6600 13.41%, #FF6600 87.24%);
+		height: 100%;
+		width: 0px;
+		transition:all 0.4s;
+	}
+	&:hover::before{
+		width: 100%;
+	}
+	&:hover{
+		span{
+			color: var(--white-color);
+		}
+	}
+	span{
+		z-index: 1;
+		position: relative;
+		transition: all 0.4s;
+		display: block;
+	}
+}
+.cmn--btn2 {
+	padding: 9px 40px 12px;
+	font-size: 14px;
+	font-weight: 600;
+	display: inline-block;
+	text-transform: capitalize;
+	transition: all 0.3s;
+	text-align: center;
+	background: var(--button-two);
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+	z-index: 1;
+	&::before{
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		background: linear-gradient(114.26deg, #F3486A 13.41%, #F3486A 87.24%);
+		height: 100%;
+		width: 0px;
+		transition:all 0.4s;
+	}
+	&:hover::before{
+		width: 100%;
+	}
+	&:hover{
+		span{
+			color: var(--white-color);
+		}
+	}
+	span{
+		z-index: 1;
+		position: relative;
+		transition: all 0.4s;
+		display: block;
+	}
+}
+.mneu-btn-grp{
+	@include flex;
+	gap: 13px;
+}
+/*--Button Area End--*/
+/*--Button Area End--*/

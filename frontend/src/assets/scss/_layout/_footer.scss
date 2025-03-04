@@ -1,0 +1,291 @@
+/*------Main Footer Section Start--------*/
+/*------Main Footer Section Start--------*/
+.main__footer__section {
+  margin-right: 24px;
+  margin-left: 24px;
+  .footer__top {
+    padding-left: 50px;
+    .widget__items {
+      .content-area {
+        .quick-link {
+          li {
+            &:not(:last-child) {
+              margin-bottom: 10px;
+            }
+            a {
+              img {
+                width: 17px;
+              }
+            }
+            &:hover {
+              a {
+                color: var(--theme-one);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer__bottom {
+    padding: 24px 24px;
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      color: var(--white);
+      a {
+        font-weight: 400;
+        color: var(--active-color);
+      }
+    }
+    .bottom__ling {
+      li {
+        a {
+          font-size: 18px;
+          font-weight: 400;
+          transition: all 0.3s;
+          color: var(--white);
+        }
+        &:hover {
+          a {
+            color: var(--active-color);
+          }
+        }
+      }
+    }
+  }
+}
+/*------Main Footer Section Start--------*/
+/*------Main Footer Section Start--------*/
+
+/*------Footer Section Start--------*/
+/*------Footer Section Start--------*/
+.footer__section {
+  position: relative;
+  overflow: hidden;
+  background: var(--slidebox);
+}
+.footer__top {
+  position: relative;
+  z-index: 1;
+  .widget__items {
+    .footer-head {
+      margin-bottom: 22px;
+      a {
+        width: 150px;
+        display: block;
+        img {
+          @include imgw;
+        }
+      }
+      .title {
+        color: var(--theme-one);
+        margin-top: -6px;
+        font-weight: 500;
+      }
+    }
+    .content-area {
+      p {
+        color: var(--textcolor);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 30px;
+      }
+      h6 {
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--theme-one);
+        margin-bottom: 12px;
+      }
+      .quick-link {
+        li {
+          display: flex;
+          align-items: center;
+          transition: all 0.5s;
+          margin-left: -15px;
+          &:not(:last-child) {
+            margin-bottom: 5px;
+          }
+          a {
+            @include flex;
+            font-size: 18px;
+            color: var(--textcolor);
+            transition: all 1s;
+            margin-left: 24px;
+            font-weight: 400;
+            img {
+              width: 17px;
+              margin-right: -28px;
+              opacity: 0;
+              transition: all 0.3s;
+            }
+            &:hover {
+              color: var(--white);
+            }
+          }
+          &:hover {
+            a {
+              img {
+                opacity: 1;
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+      }
+      .contact {
+        li {
+          &:not(:last-child) {
+            margin-bottom: 7px;
+          }
+          gap: 8px;
+          @include flex;
+          .phone-icon {
+            i {
+              color: var(--ratting-color);
+            }
+          }
+          .email-part {
+            font-size: 16px;
+            transition: all 0.3s;
+            font-weight: 400;
+          }
+          &:hover {
+            a {
+              color: var(--white);
+            }
+          }
+        }
+      }
+      .badge__icon {
+        margin-top: 30px;
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+      form {
+        position: relative;
+        margin-top: 25px;
+        input {
+          border: 1px solid var(--button-one);
+          padding: 15px 138px 15px 20px;
+          outline: none;
+          box-shadow: none;
+          width: 100%;
+          border-radius: 10px;
+          color: var(--white);
+          position: relative;
+          background-color: transparent;
+          margin-bottom: 30px;
+        }
+        ::placeholder {
+          color: var(--white) !important;
+        }
+        .cmn--btn {
+          position: absolute;
+          top: 3px;
+          right: 4px;
+          border: none;
+          padding: 11px 18px 14px;
+          color: var(--white);
+        }
+      }
+    }
+  }
+  .social {
+    @include flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    li {
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+      .icon {
+        display: block;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        border: 1px solid #ff6600;
+        transition: all 0.4s;
+        i {
+          font-size: 18px;
+          color: #ff6600;
+          transition: all 0.4s;
+        }
+        &:hover {
+          background: var(--button-one);
+          border-color: var(--button-one);
+          i {
+            color: var(--white);
+          }
+        }
+      }
+    }
+  }
+  p {
+    color: var(--textcolor);
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
+//Footer Sponsor
+.footer__sponsor {
+  background: var(--pointbox);
+  padding: 30px 10px;
+}
+.footer__sponsor__items {
+  min-width: 100px;
+  text-align: center;
+  a {
+    width: 120px;
+    height: 30px;
+    display: block;
+    img {
+      @include imgw;
+      object-fit: contain;
+    }
+  }
+}
+//Footer Sponsor
+
+.footer__bottom {
+  padding: 29px 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  p {
+    order: 1;
+    font-size: 18px;
+    color: var(--white);
+    a {
+      color: var(--active-color);
+    }
+  }
+  .bottom__ling {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    li {
+      a {
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+.w-fit {
+  width: fit-content !important;
+}
+
+.swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+}
+/*------Footer Section End--------*/
+/*------Footer Section End--------*/

@@ -1,0 +1,29 @@
+:root {
+  --body-color: #060c1f;
+  --active-color: #09ff8d;
+  --active-two: #09ff8cb3;
+  --theme-one: #88b6ff;
+  --theme-two: #1877f2;
+  --button-one: #f3486a;
+  --button-two: #ff6600;
+  --header: #202a39;
+  --subheader: #161f2c;
+  --startable: #fa5500;
+  --white: #fff;
+  --black: #000;
+  --social-box: #283968;
+  --slidebox: #141c33;
+  --textcolor: #8a92ab;
+  --pointbox: #283352;
+  --betslip: #636b82;
+  --multiborder: #7a8899;
+  --signbet: #20283f;
+  --signborder: #526271;
+  --leftpreborder: #4c546a;
+  --preactive: #0f62e6;
+  --place: #858b9d;
+  --paycheck: #40507c;
+  --browser-bar-height: env(safe-area-inset-top, 0px);
+  --header-height: 60px;
+  --total-top-offset: calc(var(--browser-bar-height) + var(--header-height));
+}
